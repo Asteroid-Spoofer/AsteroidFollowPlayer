@@ -1,0 +1,4 @@
+name: AsteroidFollowPlayer
+version: '${version}'
+main: me.serbob.asteroidfollowplayer.AsteroidFollowPlayer
+api-version: '1.16'
