@@ -64,6 +64,7 @@ public class FolllowPlayerAction extends Action {
         getFakePlayer().getLookController()
                 .removeTarget("action_follow_target");
 
+        getFakePlayer().getMovement().fullStop();
         getFakePlayer().getOverrides().setPose(Pose.STANDING);
         getFakePlayer().getEntityPlayer().setSprinting(false);
     }

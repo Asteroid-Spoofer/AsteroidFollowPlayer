@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'me.serbob'
-version = '1.0'
+version = '1.0.1'
 
 repositories {
     mavenCentral()
@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT"
-    implementation 'com.github.Asteroid-Spoofer:AsteroidAPI:1.1'
+    implementation 'com.github.Asteroid-Spoofer:AsteroidAPI:1.1.1'
 }
 
 def targetJavaVersion = 8
