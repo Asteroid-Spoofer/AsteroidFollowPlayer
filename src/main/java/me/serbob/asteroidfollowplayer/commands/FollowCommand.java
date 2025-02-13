@@ -1,12 +1,14 @@
 package me.serbob.asteroidfollowplayer.commands;
 
 import me.serbob.asteroidapi.AsteroidAPI;
+import me.serbob.asteroidapi.actions.example.PathingAction;
 import me.serbob.asteroidapi.commands.AsteroidCommand;
 import me.serbob.asteroidapi.registries.FakePlayerEntity;
 import me.serbob.asteroidapi.registries.FakePlayerRegistry;
 import me.serbob.asteroidfollowplayer.actions.FolllowPlayerAction;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 

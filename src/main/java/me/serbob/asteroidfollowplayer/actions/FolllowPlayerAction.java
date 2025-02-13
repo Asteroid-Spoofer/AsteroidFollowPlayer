@@ -67,6 +67,7 @@ public class FolllowPlayerAction extends Action {
         getFakePlayer().getMovement().fullStop();
         getFakePlayer().getOverrides().setPose(Pose.STANDING);
         getFakePlayer().getEntityPlayer().setSprinting(false);
+        getFakePlayer().getOverrides().setJumping(false); // <- MAKE SURE IF YOU USE SPRINT_JUMP TO DEACTIVATE THIS AT THE END
     }
 
     @Override
