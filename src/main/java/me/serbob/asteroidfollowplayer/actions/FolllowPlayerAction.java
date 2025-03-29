@@ -63,8 +63,6 @@ public class FolllowPlayerAction extends Action {
 
     @Override
     public void onStop(StopType stopType) {
-        System.out.println("STOP");
-
         getFakePlayer().getLookController()
                 .removeTarget("action_follow_target");
 
