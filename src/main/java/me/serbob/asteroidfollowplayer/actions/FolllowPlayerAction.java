@@ -31,8 +31,10 @@ public class FolllowPlayerAction extends Action {
         /*
          * Simple monitoring...
          * Really doesn't do anything yet, but it's good to use it (for the future)
+         * Remove, will keep this here maybe for the future O-O ?
          */
-        getMonitor().recordStateChange(getState(), ActionState.RUNNING);
+//        getMonitor().recordStateChange(getState(), ActionState.RUNNING);
+
 
         /*
          * The target name can be anything
@@ -61,6 +63,8 @@ public class FolllowPlayerAction extends Action {
 
     @Override
     public void onStop(StopType stopType) {
+        System.out.println("STOP");
+
         getFakePlayer().getLookController()
                 .removeTarget("action_follow_target");
 

@@ -71,6 +71,7 @@ public class FollowCommand implements AsteroidCommand {
         }
 
         FolllowPlayerAction newAction = new FolllowPlayerAction(target);
+        System.out.println(newAction);
         fakePlayerEntity.getFBrain().getActionManager().register(newAction);
         activeFollows.put(fakePlayer.getUniqueId(), newAction);
 

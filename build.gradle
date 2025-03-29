@@ -20,7 +20,9 @@ repositories {
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT"
-    implementation 'com.github.Asteroid-Spoofer:AsteroidAPI:1.1.1'
+    implementation 'com.github.Asteroid-Spoofer:AsteroidAPI:1.1.2'
+
+//    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 def targetJavaVersion = 8
